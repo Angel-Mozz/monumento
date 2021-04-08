@@ -1,0 +1,105 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+header{
+    background-image: url(chichenitza.webp) ;
+    background-size: cover;
+    height: 100vh;
+    background-blend-mode: lighten;
+    background-position: center;
+}
+
+.center{
+    float: center;
+    text-align: center;
+    font-size: 90px;
+    padding-top: 275px;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+.subtitle{
+    float: center;
+    text-align: center;
+    font-size: 90px;
+    font-family: "Roboto", sans-serif ;
+    color: aliceblue;
+}
+
+.firstPart {
+    padding-top: 50px;
+}
+
+.firstPart img {
+    padding-left: 20px;
+    float: left;
+    padding-right: 20px;
+}
+
+.firstPart h2 {
+    font-family: "Roboto", sans-serif ;
+    font-size: 40px;
+    
+}
+
+.firstPart p{
+    padding-top: 10px;
+    font-family: "Roboto", sans-serif ;
+    font-size: 20px;
+    padding-right: 20px;
+    line-height: 35px;
+}
+
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    
+    
+}
+
+.main-nav li{
+   
+    display: inline-block;
+    
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.main-nav li.active a {
+    border: 2px solid white;
+}
+
+.main-nav li a:hover {
+    border: 2px solid white;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bottom {
+    padding-left: 20px;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: none;
+    
+
+
+}
